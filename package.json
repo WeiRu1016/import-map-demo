@@ -1,0 +1,15 @@
+{
+  "private": "true",
+  "name": "import-map-demo",
+  "version": "1.0.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.2.3",
+    "rollup": "^3.22.0",
+    "rollup-plugin-import-map": "^3.0.0",
+    "rollup-plugin-output-manifest": "^2.0.0",
+    "typescript": "^5.0.4"
+  }
+}

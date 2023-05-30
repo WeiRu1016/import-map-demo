@@ -1,0 +1,27 @@
+node_modules
+.DS_Store
+dist_docs
+dist-ssr
+*.local
+
+# idea/vscode/...
+.idea
+.vscode
+.yalc
+
+# testing
+/coverage
+
+# production
+/build
+dist-ssr
+
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+eslint-report
+/.sunxj-template
+public/
+coverage

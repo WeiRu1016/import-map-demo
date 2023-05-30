@@ -1,0 +1,21 @@
+{
+  "_factory-2339badb.js": {
+    "file": "factory-2339badb.js"
+  },
+  "src/components/statistic-list/index.tsx": {
+    "file": "components/statistic-list/index.8fbf68fa.js.js",
+    "imports": [
+      "_factory-2339badb.js"
+    ],
+    "isEntry": true,
+    "src": "src/components/statistic-list/index.tsx"
+  },
+  "src/components/todo-list/index.tsx": {
+    "file": "components/todo-list/index.4d01afe9.js.js",
+    "imports": [
+      "_factory-2339badb.js"
+    ],
+    "isEntry": true,
+    "src": "src/components/todo-list/index.tsx"
+  }
+}
