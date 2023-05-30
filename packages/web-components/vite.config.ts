@@ -20,7 +20,7 @@ const entry = glob.sync('./src/components/*/index.tsx').map(file => [
 export default () => {
     return defineConfig({
         plugins: [react(), importMapPlugin({ packageName: packageJSON.name })],
-        base: '/web-components/',
+        base: '/import-map-demo/dist/web-components/',
         define: {
             global: "globalThis",
             // my fix
