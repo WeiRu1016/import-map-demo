@@ -7615,7 +7615,7 @@ var m$1 = reactDomExports;
 }
 const scriptRel = "modulepreload";
 const assetsURL = function(dep) {
-  return "/app/" + dep;
+  return "/import-map-demo/dist/app/" + dep;
 };
 const seen = {};
 const __vitePreload = function preload(baseModule, deps, importerUrl) {
